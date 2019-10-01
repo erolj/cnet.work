@@ -1,3 +1,8 @@
+<?php
+    // Testing
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -35,6 +40,8 @@
         <!-- Skin Color -->
         <link rel="stylesheet" href="css/colors/purple.css" id="color-skins"/>
 		
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+        
 	</head>
 	<body>
         
@@ -65,7 +72,7 @@
                             <li class="to-section"><a href="#services">Services</a></li>
                             <li class="to-section"><a href="#price-list">Pricing</a></li>
                             <li class="to-section"><a href="#contact">Contact</a></li>
-                            <li class="to-section"><a href="https://my.ertomedia.id/clientarea.php">Client Login</a></li>
+                            <li class="to-section"><a href="https://panel.ertomedia.id/">Client Login</a></li>
 							
                       </ul>
                     </div><!-- /.navbar-collapse -->
@@ -294,8 +301,7 @@
                                 </div>
                             </div>
                         </div>
-                        
-                                
+
                 	</div>
             	</div>
             </section>        
@@ -358,7 +364,6 @@
                                 </a>    
                             </div>
                             
-                            
                         </div>                        
                         
                     </div>
@@ -388,6 +393,7 @@
                                 <fieldset> 
                                         <textarea name="comments" cols="40" rows="3" id="comments" placeholder="Message"></textarea>
                                 </fieldset>
+								<div class="g-recaptcha" data-sitekey="6LctHoMUAAAAAPaf5VJpL1M4oav2Egz4mqrHI2l6"></div><br />
                                 <input type="submit" class="submit" id="submit" value="Send Message" />
                             </form>
                         </div>  
@@ -400,6 +406,7 @@
            
             <!-- Start Footer 1 -->
             <footer id="footer">
+                
 				<div class="footer-copyright uppercase">
 					<div class="container">
 						<div class="row">
@@ -412,13 +419,8 @@
 						            <li><a href="https://www.facebook.com/ertomedia/" target="_blank"><i class="icon ion-social-facebook"></i></a></li> 	
                                     <li><a href="https://www.twitter.com/ertomedia/" target="_blank"><i class="icon ion-social-twitter"></i></a></li> 
                                     <li><a href="https://www.linkedin.com/company/ertomedia/" target="_blank"><i class="icon ion-social-linkedin"></i></a></li> 
-                                    <!-- <li><a href="#"><i class="icon ion-social-googleplus"></i></a></li> 
-                                    <li><a href="#"><i class="icon ion-social-instagram-outline"></i></a></li> 
-                                    <li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>  
-                                    <li><a href="#"><i class="icon ion-social-skype"></i></a></li> 
-                                    <li><a href="#"><i class="icon ion-social-dropbox"></i></a></li> 
-                                    <li><a href="#"><i class="icon ion-social-vimeo"></i></a></li> 
-                                    <li><a href="#"><i class="icon ion-social-youtube"></i></a></li> -->
+                                    <li><a href="https://github.com/ertomedia" target="_blank"><i class="icon ion-social-github"></i></a></li> 
+                                    <li><a href="https://discord.gg/9ZVuRsA" target="_blank" alt="Join us in Discord"><i class="icon ion-chatbubbles"></i></a></li>  
                                 </ul>
 							</div>
 						</div>
@@ -432,21 +434,18 @@
 								<div class="fact">
 									<span class="counter highlight">1</span> 
 									<h4 class="grey">Million Requests Served</h4>
-									<!-- <p>Sibh <span class="highlight">vulputate</span> vivamus</p> -->
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-4 fact-container">
 								<div class="fact">
 									<span class="counter highlight">23</span>
 									<h4>Zones Hosted</h4>
-									<!-- <p>Duis vulputate <span class="highlight">nibh</span> sit</p> -->
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-4 fact-container">
 								<div class="fact">
 									<span class="counter highlight">44</span>
 									<h4>GB Bandwidth Served</h4>
-									<!-- <p>Fusce <span class="highlight">tincidunt</span> nulla</p> -->
 								</div>
 							</div>
 						</div> 
@@ -467,6 +466,7 @@
         <!-- jQuery -->
         <script data-cfasync="true" src="js/plugins/jquery.min.js"></script>
         <script data-cfasync="true" src="js/plugins/moderniz.min.js"></script>
+        <script data-cfasync="true" src="js/plugins/smoothscroll.min.js"></script>
         <script data-cfasync="true" src="js/plugins/revslider.min.js"></script> 
         <script data-cfasync="true" src="js/plugins/bootstrap.min.js"></script>
         <script data-cfasync="true" src="js/plugins/waypoints.min.js"></script>
